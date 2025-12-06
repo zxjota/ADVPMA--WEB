@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - ERCKUTYI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 2.5rem 0;
+            text-align: center;
+            border-radius: 0 0 20px 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2.5rem;
+        }
+        
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+        }
+        
+        .app-logo {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-weight: bold;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        /* Content Styles */
+        .policy-content {
+            background-color: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2.5rem;
+        }
+        
+        h2 {
+            color: #1e3c72;
+            margin-top: 1.8rem;
+            margin-bottom: 0.8rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        h2:first-child {
+            margin-top: 0;
+        }
+        
+        p {
+            margin-bottom: 1.2rem;
+        }
+        
+        ul, ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1.2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .highlight {
+            background-color: #f8f9fe;
+            padding: 1.2rem;
+            border-left: 4px solid #2a5298;
+            margin: 1.5rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .highlight p {
+            margin-bottom: 0;
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #f8f9fe 0%, #eef2ff 100%);
+            padding: 1.5rem;
+            border-radius: 10px;
+            margin-top: 2rem;
+        }
+        
+        .contact-icon {
+            font-size: 2rem;
+            color: #2a5298;
+            margin-right: 1.5rem;
+        }
+        
+        .contact-details h3 {
+            margin-bottom: 0.5rem;
+            color: #1e3c72;
+        }
+        
+        .email-link {
+            color: #2a5298;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        
+        .email-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            color: #666;
+            border-top: 1px solid #eee;
+            font-size: 0.9rem;
+        }
+        
+        .policy-date {
+            font-style: italic;
+            color: #888;
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            
+            header {
+                padding: 1.8rem 0;
+                border-radius: 0 0 15px 15px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .policy-content {
+                padding: 1.8rem;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .contact-icon {
+                margin-right: 0;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            h2 {
+                font-size: 1.4rem;
+            }
+            
+            .policy-content {
+                padding: 1.5rem;
+            }
+        }
+        
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #2a5298;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            z-index: 100;
+        }
+        
+        .back-to-top:hover {
+            background-color: #1e3c72;
+            transform: translateY(-5px);
+        }
+        
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <div class="app-logo">E</div>
+                <h1>ERCKUTYI Privacy Policy</h1>
+            </div>
+            <p class="subtitle">This privacy policy describes how ERCKUTYI collects, uses, and protects your personal information when you use our application.</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <!-- Privacy Policy Content -->
+        <main class="policy-content">
+            <p class="policy-date"><strong>Effective Date:</strong> June 1, 2023</p>
+            <p class="policy-date"><strong>Last Updated:</strong> September 15, 2023</p>
+            
+            <p>Welcome to ERCKUTYI. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our application. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the application.</p>
+            
+            <h2>1. Information We Collect</h2>
+            <p>We may collect information about you in a variety of ways. The information we may collect via the application includes:</p>
+            
+            <h3>Personal Data</h3>
+            <p>Personally identifiable information, such as your name, email address, and demographic information, that you voluntarily give to us when you register with the application or when you choose to participate in various activities related to the application.</p>
+            
+            <h3>Derivative Data</h3>
+            <p>Information our servers automatically collect when you access the application, such as your native actions that are integral to the application, as well as other interactions with the application.</p>
+            
+            <h3>Financial Data</h3>
+            <p>Financial information, such as data related to your payment method (e.g., valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the application.</p>
+            
+            <h2>2. Use of Your Information</h2>
+            <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the application to:</p>
+            <ul>
+                <li>Create and manage your account.</li>
+                <li>Process your transactions and send you related information.</li>
+                <li>Increase the efficiency and operation of the application.</li>
+                <li>Monitor and analyze usage and trends to improve your experience with the application.</li>
+                <li>Notify you of updates to the application.</li>
+                <li>Offer new products, services, and/or recommendations to you.</li>
+                <li>Perform other business activities as needed.</li>
+                <li>Prevent fraudulent transactions, monitor against theft, and protect against criminal activity.</li>
+            </ul>
+            
+            <h2>3. Disclosure of Your Information</h2>
+            <p>We may share information we have collected about you in certain situations. Your information may be disclosed as follows:</p>
+            
+            <h3>By Law or to Protect Rights</h3>
+            <p>If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation.</p>
+            
+            <h3>Third-Party Service Providers</h3>
+            <p>We may share your information with third parties that perform services for us or on our behalf, including payment processing, data analysis, email delivery, hosting services, customer service, and marketing assistance.</p>
+            
+            <h3>Business Transfers</h3>
+            <p>We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</p>
+            
+            <h2>4. Tracking Technologies</h2>
+            <p>We may use cookies, web beacons, tracking pixels, and other tracking technologies on the application to help customize the application and improve your experience. Most browsers are set to accept cookies by default. You can remove or reject cookies, but be aware that such action could affect the availability and functionality of the application.</p>
+            
+            <div class="highlight">
+                <p><strong>Note:</strong> We do not sell, trade, or rent your personal identification information to others. We may share generic aggregated demographic information not linked to any personal identification information regarding visitors and users with our business partners and trusted affiliates for the purposes outlined above.</p>
+            </div>
+            
+            <h2>5. Security of Your Information</h2>
+            <p>We use administrative, technical, and physical security measures to help protect your personal information. While we have taken reasonable steps to secure the personal information you provide to us, please be aware that despite our efforts, no security measures are perfect or impenetrable, and no method of data transmission can be guaranteed against any interception or other type of misuse.</p>
+            
+            <h2>6. Policy for Children</h2>
+            <p>We do not knowingly solicit information from or market to children under the age of 13. If you become aware of any data we have collected from children under age 13, please contact us using the contact information provided below.</p>
+            
+            <h2>7. Your Privacy Rights</h2>
+            <p>Depending on your location, you may have certain rights regarding your personal information, such as:</p>
+            <ul>
+                <li>The right to access personal information we have about you</li>
+                <li>The right to request correction or deletion of your personal information</li>
+                <li>The right to restrict processing of your personal information</li>
+                <li>The right to data portability</li>
+                <li>The right to object to processing of your personal information</li>
+            </ul>
+            <p>To exercise any of these rights, please contact us using the contact information provided below.</p>
+            
+            <h2>8. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time in order to reflect changes to our practices or for other operational, legal, or regulatory reasons. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this Privacy Policy.</p>
+            
+            <h2>9. Contact Us</h2>
+            <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+            
+            <div class="contact-info">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>ERCKUTYI Privacy Team</h3>
+                    <p>Email: <a href="mailto:anuwinsoft@gmail.com" class="email-link">anuwinsoft@gmail.com</a></p>
+                    <p>We will respond to your inquiry within 30 days.</p>
+                </div>
+            </div>
+            
+            <div class="last-updated">
+                <p><strong>This privacy policy was last updated on September 15, 2023.</strong></p>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2023 ERCKUTYI. All rights reserved.</p>
+            <p>This privacy policy applies only to information collected through the ERCKUTYI application.</p>
+        </footer>
+    </div>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    
+    <script>
+        // Back to top button functionality
+        const backToTopButton = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.style.display = 'flex';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+        
+        backToTopButton.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 20,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
